@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hotel',
       theme: ThemeData(
+        focusColor: Colors.green,
       fontFamily: 'Sfpro'
 // This is the theme of your application.
 //
