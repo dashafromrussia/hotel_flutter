@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'hotel',
+      title: 'Hotel',
       theme: ThemeData(
       fontFamily: 'Sfpro'
 // This is the theme of your application.
@@ -40,7 +40,6 @@ class MyApp extends StatelessWidget {
 // "hot reload" (press "r" in the console where you ran "flutter run",
 // or simply save your changes to "hot reload" in a Flutter IDE).
 // Notice that the counter didn't reset back to zero; the application
-// is not restarted.
       ),
       home:MultiBlocProvider(
           providers: [
