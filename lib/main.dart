@@ -29,12 +29,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-<<<<<<< HEAD
       title: 'hotel',
-=======
-      title: 'Hotel',
->>>>>>> new
       theme: ThemeData(
+        backgroundColor: Colors.blue,
       fontFamily: 'Sfpro'
 // This is the theme of your application.
 //
